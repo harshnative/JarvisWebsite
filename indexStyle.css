@@ -1,0 +1,107 @@
+.greenColor
+{
+    background-color: green;
+}
+
+.someLength
+{
+    min-height: 50px;
+}
+
+.fullVPHeight
+{
+    height: 100vh;
+}
+
+.heroBackGroundImageKeyboard
+{
+    background-image: url("images/hero-background_keyboard.jpg");
+    background-color: #cccccc;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
+
+/* top nav */
+.logoText
+{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 32px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+
+.otherTopNavText
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+
+.homeTopNavPadding
+{
+    margin-left: 25vw;
+}
+
+.marginLeft32TopNav
+{
+    margin-left: 32px;
+}
+
+.myNavBarHeight
+{
+    min-height: 128px;
+    padding-top: 10px;
+}
+
+
+/* center hero page */
+.jarvisBigCenter
+{
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.marginTopJarvis
+{
+    margin-top: 20vh;
+}
+
+
+@media only screen and (max-width : 1200px) {
+    
+    /* top nav */
+    .homeTopNavPadding
+    {
+        margin-left: 18vh;
+    }
+    .marginLeft32TopNav
+    {
+        margin-left: 32px;
+    }
+
+}
+
+@media only screen and (max-width : 1024px) {
+    
+    /* top nav */
+    .homeTopNavPadding
+    {
+        margin-left: 10px;
+    }
+    .marginLeft32TopNav
+    {
+        margin-left: 10px;
+    }
+
+}
+
