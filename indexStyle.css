@@ -69,11 +69,61 @@
     font-size: 6rem;
     font-weight: 700;
     color: white;
+    text-shadow: 0px 1px 8px #006AFA ;
 }
 
 .marginTopJarvis
 {
-    margin-top: 20vh;
+    margin-top: 10vh;
+}
+
+.lineAtCenterHero
+{
+    width: 50vw;
+    height: 12px;
+    border: 1px solid blue;
+    background-color: #006AFA;
+    border-radius: 24px;
+}
+
+.jarvisMainTagLine
+{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0px 1px 8px #006AFA ;
+    margin-top: 20px;
+}
+
+.downloadButtonMainPage
+{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 24px;
+
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:black;
+
+    box-shadow: 0px 0px 2px white;
+
+    margin-top: 36px;
+    padding: 16px;
+}
+
+/* blue box main page */
+
+.mainPageBlueBox
+{
+    margin-top: 64px;
+    width: 75vw;
+    height: 540px;
+    border: 1px solid black;
+    background-color: #006AFA;
+    border-radius: 24px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -89,9 +139,38 @@
         margin-left: 32px;
     }
 
+    .jarvisMainTagLine
+    {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media only screen and (max-width : 1024px) {
+    
+    /* top nav */
+    .homeTopNavPadding
+    {
+        margin-left: 10px;
+    }
+
+    .marginLeft32TopNav
+    {
+        margin-left: 10px;
+    }
+
+    .jarvisMainTagLine
+    {
+        font-size: 1.25rem;
+    }
+
+    .downloadButtonMainPage
+    {
+    font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width : 512px) {
     
     /* top nav */
     .homeTopNavPadding
@@ -102,6 +181,8 @@
     {
         margin-left: 10px;
     }
-
+    .jarvisMainTagLine
+    {
+        font-size: 1.0rem;
+    }
 }
-
