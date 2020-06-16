@@ -1,4 +1,4 @@
-/* Global Margins */
+/* Global Things */
 .marginTop32
 {
     margin-top: 32px;
@@ -253,6 +253,7 @@
     font-weight: 700;
     color: #1B1D1F;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 /* black line */
@@ -422,5 +423,6 @@
     {
         display: block;
         text-align: center;
+
     }
 }

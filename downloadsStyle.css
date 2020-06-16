@@ -1,0 +1,46 @@
+.downloadText
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 4vh;
+}
+
+.downloadTextBottom
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.0rem;
+    color: white;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.marginIcons
+{
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.downloadsIconText
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+.heroBackGroundImageKeyboard
+{
+    background-image: url("images/hero-background_keyboard.jpg");
+    background-color: #cccccc;
+    background-position: center; 
+    background-repeat: repeat; 
+    background-size: cover; 
+}
+}
