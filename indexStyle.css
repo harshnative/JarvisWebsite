@@ -417,4 +417,10 @@
     max-width: 80vw;
     height: auto;
     }   
+
+    .blockMob
+    {
+        display: block;
+        text-align: center;
+    }
 }
