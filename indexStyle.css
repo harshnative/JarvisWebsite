@@ -245,6 +245,7 @@
 
 /* icons bottom */
 
+
 .iconsBottomText
 {
     text-decoration: none;
@@ -423,5 +424,13 @@
     {
         display: block;
         text-align: center;
+    }
+    
+    .iconsImgCenter
+    {
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: auto;
     }
 }
