@@ -14,7 +14,7 @@
     <!-- mine -->
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="stylesheet" href="docs_homeStyle.css">
-    <link rel="stylesheet" href="docs_installationStyle.css">
+    <link rel="stylesheet" href="docs_weatherModuleStyle.css">
     <title>coming soon page - jarvis for windows, linux, mac</title>
   </head>
   <body>
@@ -52,7 +52,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mineDisplayBlock2">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link restTextNav" href="docs_installation.html">Installation</a>
             </li>
 
@@ -61,11 +61,11 @@
                 Main Features
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Weather</a>
-                <a class="dropdown-item" href="#">BackUp</a>
-                <a class="dropdown-item" href="#">Speed Test</a>
-                <a class="dropdown-item" href="#">Password Manager</a>
-                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="docs_weatherModule.html">Weather</a>
+                <a class="dropdown-item" href="docs_backupModule.html">BackUp</a>
+                <a class="dropdown-item" href="docs_speed_testModule.html">Speed Test</a>
+                <a class="dropdown-item" href="docs_password_managerModule.html">Password Manager</a>
+                <a class="dropdown-item" href="docs_settings.html">Settings</a>
               </div>
             </li>
 
@@ -117,20 +117,39 @@
     </div>
 
     <div class="container docContainer marginTop48">
-      <h1 class="mainHeadingDocs">Installation</h1>
+      <h1 class="mainHeadingDocs">Weather</h1>
       <div class="container blackLineDocs"></div>
-      <p class="textDocsMainBody aTagsInDocBodyDisplayInline" style="margin-top: 16px;"><span class="spanBold">Step 1 - </span>Download the executable file from <a class="aTagsInDocBody" href="#">Download's Section</a></p>
-      <p class="textDocsMainBody"><span class="spanBold">Step 2 - </span>Install the executable just like every other program, just next agree and next.</p>
-      <p class="textDocsMainBody"><span class="spanBold">Step 3 - </span>A Jarvis shortcut will be available either in start menu or desktop, Launch it and enjoy 😁.</p>
-      <div class="container soPerSafe">
-        <img src="images/secure_logo.png" alt="secure logo jarvis" style="width: 290px; height: auto; margin: auto;">
-        <h1 class="soPerSafeText">JARVIS IS 100% SAFE TO USE</h1>
-      </div>
-      <div class="container marginTop64"></div>
-      <h1 class="mainHeadingDocs">Updating</h1>
+      <!-- <p class="textDocsMainBody aTagsInDocBodyDisplayInline" style="margin-top: 16px;"><span class="spanBold">Step 1 - </span>Download the executable file from <a class="aTagsInDocBody" href="#">Download's Section</a></p> -->
+      <p class="textDocsMainBody"><span class="spanBold">Jarvis Includes a powerful weather tool to help you quickly get weather details.</span></p>
+      <div class="container marginTop48"></div>
+      <h1 class="commands">Command's</h1>
       <div class="container blackLineDocs"></div>
-      <p class="textDocsMainBody">Just download and install the latest version.</p>
-      <p class="textDocsMainBody">To be on the safe side backup the Jarvis first using <span style="text-decoration: underline;">backup jarvis</span> command</p>
+      
+      <ol>
+          <li class="textList">
+              <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-london</div>
+              <p class="textCommandContainerBody">To get the weather details of London</p>
+          </li>
+
+          <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-new_york</div>
+            <p class="textCommandContainerBody">To get the weather details of New York</p>
+            <p class="textCommandContainerBody">Remember to use _ (underscore) for writing city names with more than two words</p>
+         </li>
+
+         <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-london -f</div>
+            <p class="textCommandContainerBody">To get the weather details of London in Fahrenheit units</p>
+         </li>
+
+         <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather</div>
+            <p class="textCommandContainerBody aTagsInDocBodyDisplayInline">Jarvis will show weather details of default city from <a class="aTagsInDocBody" href="#"> settings file</a></p>
+         </li>
+      </ol>
+
+      <h1 class="havingIssueText"><a href="#">Having some issue - try visiting FAQ section</a></h1>
+      
     </div>
   </div>
 

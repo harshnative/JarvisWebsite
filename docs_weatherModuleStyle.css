@@ -1,0 +1,55 @@
+.textList
+{
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.commands
+{
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+    margin: 16px 8px 0px 8px;
+}
+
+.commandContainer
+{
+    background-color: #1B1D1F;
+    height: fit-content;
+    width: max-content;
+    border-radius: 16px;
+    margin-left: 8px;
+}
+
+.textCommandContainer
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:white;
+    padding: 8px 16px 8px 16px;
+}
+
+
+.textCommandContainerBody
+{
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 8px 8px 8px 8px;
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+
+    .alignLeftOnMob
+    {
+        margin-left: 24px;
+        margin-right: auto;
+    }
+}
