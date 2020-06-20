@@ -19,7 +19,8 @@
 {
     background-color: #1B1D1F;
     height: fit-content;
-    width: max-content;
+    min-width: 30vw;
+    max-width: 40vw;
     border-radius: 16px;
     margin-left: 8px;
 }
