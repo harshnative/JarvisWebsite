@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="stylesheet" href="docs_homeStyle.css">
     <link rel="stylesheet" href="docs_weatherModuleStyle.css">
+    <link rel="stylesheet" href="docs_backupModuleStyle.css">
     <title>coming soon page - jarvis for windows, linux, mac</title>
   </head>
   <body>
@@ -117,34 +118,56 @@
     </div>
 
     <div class="container docContainer marginTop48">
-      <h1 class="mainHeadingDocs">Weather</h1>
+      <h1 class="mainHeadingDocs">BackUp</h1>
       <div class="container blackLineDocs"></div>
       <!-- <p class="textDocsMainBody aTagsInDocBodyDisplayInline" style="margin-top: 16px;"><span class="spanBold">Step 1 - </span>Download the executable file from <a class="aTagsInDocBody" href="#">Download's Section</a></p> -->
-      <p class="textDocsMainBody"><span class="spanBold">Jarvis Includes a powerful weather tool to help you quickly get weather details.</span></p>
+      <p class="textDocsMainBody"><span class="spanBold">Jarvis Includes a powerful backup tool to help you quickly backup your important files.</span></p>
+      <p class="textDocsMainBody">Note : Please make sure you start Jarvis a administrator before using backup commands.</p>
+      <p class="textDocsMainBody">Note : Also make sure that paths in <a class="aTagsInDocBody" href="#">Settings File</a> like path to backup etc are correctly set.</p>
       <div class="container marginTop48"></div>
       <h1 class="commands">Command's</h1>
       <div class="container blackLineDocs"></div>
       
       <ol>
           <li class="textList">
-              <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-london</div>
-              <p class="textCommandContainerBody">To get the weather details of London</p>
+              <div class="container commandContainer textCommandContainer alignLeftOnMob">backup -d</div>
+              <p class="textCommandContainerBody">To backup all the directories mentioned in the settings file</p>
           </li>
 
           <li class="textList marginTop48">
-            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-new_york</div>
-            <p class="textCommandContainerBody">To get the weather details of New York</p>
-            <p class="textCommandContainerBody">Remember to use _ (underscore) for writing city names with more than two words</p>
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">backup -a</div>
+            <p class="textCommandContainerBody">To backup all the data of all the users</p>
+          </li>
+
+          <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">backup -a -e</div>
+            <p class="textCommandContainerBody">To backup all the <span class="spanBold">Essential items</span> of all the users</p>
+            <p class="textCommandContainerBody">Essential includes all the data present in desktop, download , videos, pictures, music folder</p>
          </li>
 
          <li class="textList marginTop48">
-            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-london -f</div>
-            <p class="textCommandContainerBody">To get the weather details of London in Fahrenheit units</p>
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">backup -a -c</div>
+            <p class="textCommandContainerBody">To backup all the data of the current user</p>
+          </li>
+
+         <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">backup -e -c</div>
+            <p class="textCommandContainerBody">To backup all the essential data of the current user</p>
          </li>
 
          <li class="textList marginTop48">
-            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather</div>
-            <p class="textCommandContainerBody aTagsInDocBodyDisplayInline">Jarvis will show weather details of default city from <a class="aTagsInDocBody" href="#"> settings file</a></p>
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">backup -a -d</div>
+            <p class="textCommandContainerBody">-d can be clubbed with any other command</p>
+         </li>
+
+         <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">backup jarvis</div>
+            <p class="textCommandContainerBody">To backup the jarvis files such as passwords, settings etc</p>
+         </li>
+
+         <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">restore jarvis</div>
+            <p class="textCommandContainerBody">To restore the settings, passwords etc from the backup site</p>
          </li>
       </ol>
 
