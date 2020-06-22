@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="stylesheet" href="docs_homeStyle.css">
     <link rel="stylesheet" href="docs_weatherModuleStyle.css">
-    <link rel="stylesheet" href="docs_hangmanGameStyle.css">
+    <link rel="stylesheet" href="docs_settingsStyle.css">
     <title>coming soon page - jarvis for windows, linux, mac</title>
   </head>
   <body>
@@ -118,34 +118,26 @@
     </div>
 
     <div class="container docContainer marginTop48">
-      <h1 class="mainHeadingDocs">Hangman Game</h1>
+      <h1 class="mainHeadingDocs">DATE & TIME</h1>
       <div class="container blackLineDocs"></div>
-      <p class="textDocsMainBody"><span class="spanBold">Jarvis includes a highly popular word guessing game out of the box.</span></p>
-
+      <p class="textDocsMainBody"><span class="spanBold">Now directly see the current date and time in the terminal itself.</span></p>
+      <p class="textDocsMainBody">Yup we know that why would you use jarvis to see time but it can be very useful in full screen terminal environments like Edex UI etc.</p>
+    
       <div class="container marginTop48"></div>
-      <h1 class="mainHeadingDocs">How to Play</h1>
+      <h1 class="commands">Command's</h1>
       <div class="container blackLineDocs"></div>
-      <div class="container marginTop48"></div>
-
-      <div class="container commandContainer textCommandContainer alignLeftOnMob">hangman game</div>
-      <p class="textCommandContainerBody">Use this command to start the game.</p>
-      <p class="textCommandContainerBody">You can choose difficulty level between easy and hard.</p>
-      <p class="textCommandContainerBody">Press 0 at last to exit the game.</p>
-
-
-      <div class="container marginTop48"></div>
-      <h1 class="mainHeadingDocs">Game Rules</h1>
-      <div class="container blackLineDocs"></div>
-      <ul>
-        <li><p class="textCommandContainerBody">You will be given the word of which all the letters will be hidden.</p></li>
-        <li><p class="textCommandContainerBody">You have to guess a letter.</p></li>
-        <li><p class="textCommandContainerBody">If the letter is present is the word provided, the places at which the letter is present will be revealed.</p></li>
-        <li><p class="textCommandContainerBody">But if the letter is not present you will loose one point out of seven and become d of dumbass.</p></li>
-        <li><p class="textCommandContainerBody">If you loose seven points by guessing wrongs words then you will become dumbass and game will be over.</p></li>
-        <li><p class="textCommandContainerBody">Guess the all words correctly within seven tries (try in which guessed correctly is not counted) to win the game.</p></li>
-      </ul>
       
+      <ol>
+          <li class="textList">
+              <div class="container commandContainer textCommandContainer alignLeftOnMob">time</div>
+              <p class="textCommandContainerBody">To get the current Date & Time - Picked from the system</p>
+          </li>
 
+          <li class="textList marginTop48">
+            <div class="container commandContainer textCommandContainer alignLeftOnMob">utc time</div>
+            <p class="textCommandContainerBody">To get the current <span class="spanBold">UTC </span> Date & Time - calculated from the system time.</p>
+          </li>
+      </ol>
 
 
       <h1 class="havingIssueText"><a href="#">Having some issue - try visiting FAQ section</a></h1>
