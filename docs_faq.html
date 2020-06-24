@@ -146,14 +146,58 @@
       
       <ol>
           <li class="textList">
-            <p class="textCommandContainerBodyQa"><span class="spanBold">I want to get weather detail of new york and after using this command i get error message ?</span>.</p>
-            <div class="container commandContainer textCommandContainer alignLeftOnMob">weather city-new york</div>
-            <p class="textCommandContainerBodyQa">Please use underscore instead of city name to write city name having two or more words. Use <span class="spanBold">weather city-new_york</span>.</p>
+            <p class="textCommandContainerBodyQa"><span class="spanBold">Jarvis is not backing up some of my files ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Unsupported files like encrypted container and files that are not accessible due to OS permission issue are not backed up.</p>
           </li>
 
           <li class="textList marginTop48">
-            <p class="textCommandContainerBodyQa"><span class="spanBold">I am not able to get the weather details of my city ?</span>.</p>
-            <p class="textCommandContainerBodyQa">Although 250,000 cities are covered by the open weather API that Jarvis uses to fetch data, still their can be some cities for which weather data is not available 😔.</p>
+            <p class="textCommandContainerBodyQa"><span class="spanBold">Jarvis is not backing up my directories mentioned in the settings file ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Make sure that the paths are correct and you have read permission for that folder.</p>
+            <p class="textCommandContainerBodyQa">Path examples - <span class="spanBold">C:/Users/userName/Desktop/folderName</span>.</p>
+            <p class="textCommandContainerBodyQa">If you have mulitple directories then make sure to separate them out using colon ( , ).</p>
+          </li>
+          
+          <li class="textList marginTop48">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">How does Jarvis backup works ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Jarvis copy all the files in the directory and all the subdirectories to the backUp path , if the files are already in the backup then the files will be replaced by the new files.</p>
+          </li>
+          
+          <li class="textList marginTop48">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">Jarvis backup not working ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Make sure that the path to backup in the settings is set and is correct.</p>
+            <p class="textCommandContainerBodyQa">Path examples - <span class="spanBold">D:/myFiles</span>.</p>
+            <p class="textCommandContainerBodyQa">A folder will be created in the myFiles called backup in which your backed up data will be present.</p>
+          </li>
+          
+          <li class="textList marginTop48">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">Where is my directory backup in the backup folder ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Your directories backup will be located under the additional files folder in the backup folder.</p>
+          </li>
+          
+          <li class="textList marginTop48">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">Jarvis seems to be stuck while Backing Up Data ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Copying files takes time and depends on the computer processing power and transfer speed btw drives, jarvis may be still running, you can conform that by opening task manager.</p>
+          </li>
+     </ol>
+
+     <div class="container marginTop64"></div>
+      <h1 class="commands">Password Manager</h1>
+      <div class="container blackLineDocs"></div>
+      
+      <ol>
+          <li class="textList">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">Password input is not accepting inputs ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Jarvis password input is just like Linux , it is taking input and recording it but not showing it visually. This is a security feature to prevent password leaks.</p>
+          </li>
+
+          <li class="textList marginTop48">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">I am not able to delete or update anything ?</span>.</p>
+            <p class="textCommandContainerBodyQa">Make sure you enter correct index number when asked about them</p>
+          </li>
+
+          <li class="textList marginTop48">
+            <p class="textCommandContainerBodyQa"><span class="spanBold">I have forgotten my master password 😭?</span>.</p>
+            <p class="textCommandContainerBodyQa">Due to encryption, all your passwords are lost and cannot be claimed back sorry 😥.</p>
           </li>
      </ol>
     </div>
