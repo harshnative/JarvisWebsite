@@ -76,6 +76,13 @@
     margin-left: 32px;
 }
 
+.otherContributorImg2
+{
+    height: 100px; 
+    width: auto; 
+    /* margin-left: 32px; */
+}
+
 @media only screen and (max-width : 1024px) {
     .blockElementMob
     {
