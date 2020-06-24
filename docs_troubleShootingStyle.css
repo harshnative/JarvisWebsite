@@ -1,0 +1,18 @@
+.textCommandContainerBody2
+{
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 48px 8px 8px 8px;
+}
+
+.havingIssueText
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #006AFA;
+    margin-top: 64px;
+    margin-left: 8px;
+}
