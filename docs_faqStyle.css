@@ -1,0 +1,47 @@
+.topContainer
+{
+    background-color: white;
+    height: fit-content;
+    min-width: 30vw;
+    width: fit-content;
+    border-radius: 16px;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+.textCommandContainer2
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:black;
+    padding: 8px 16px 8px 16px;
+}
+
+.textCommandContainerBodyQa
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:black;
+    margin-top: 8px;
+}
+
+.commandContainer
+{
+    background-color: #1B1D1F;
+    height: fit-content;
+    min-width: 30vw;
+    max-width: 40vw;
+    border-radius: 16px;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+.textList
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+}
