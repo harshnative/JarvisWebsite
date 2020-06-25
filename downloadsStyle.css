@@ -20,6 +20,7 @@
     color: white;
     margin-top: 4vh;
     text-align: center;
+    margin-bottom: 4vh;
 }
 
 .downloadTextBottom
@@ -63,14 +64,15 @@
 
 @media only screen and (max-width : 1023.98px) {
     
-    .hideOnMob
-    {
-        display: none;
-    }
 
     .blockMobDownloadIcons
     {
         display: block;
+        text-align: center;
+    }
+
+    .alignOnMOBcenter
+    {
         text-align: center;
     }
 
@@ -81,6 +83,7 @@
 
     .marginDecMob
     {
-        margin: 8px;
+        margin: 16px;
+        margin-bottom: 48px;
     }
 }
