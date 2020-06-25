@@ -1,8 +1,3 @@
-.fullVPHeight
-{
-    height: fit-content;
-}
-
 .heroBackGroundImageKeyboard
 {
     background-image: url("images/hero-background_keyboard.jpg");
@@ -10,6 +5,8 @@
     background-position: center; 
     /* background-repeat: no-repeat;  */
     background-size: cover; 
+    height: fit-content;
+    width: auto;
 }
 
 .downloadText
